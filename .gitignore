@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/
+models/
+replica/screens/
+build/
+.DS_Store
+venv/
+node_modules/
+*.p12
+cert-password.txt
+signing/
+graphify-out/
+.claude/

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hookscope</title>
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src 'self' data: blob:; media-src 'self' blob:; style-src 'self'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='14' cy='14' r='9' fill='none' stroke='%23e8553d' stroke-width='4'/%3E%3Cpath d='M21 21l7 7' stroke='%23e8553d' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="shell">
+    <aside class="side">
+      <a class="brand" href="#/" aria-label="Hookscope home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Hookscope</span>
+      </a>
+      <nav aria-label="Main" class="nav">
+        <p class="nav-group">Study</p>
+        <a href="#/" data-route="analyse">Analyse</a>
+        <a href="#/library" data-route="library">Library</a>
+        <a href="#/plan" data-route="plan">Weekly plan</a>
+        <p class="nav-group">Make</p>
+        <a href="#/scripts" data-route="scripts">Scripts</a>
+        <a href="#/chat" data-route="chat">Ask</a>
+        <a href="#/tools" data-route="tools">Quick tools</a>
+        <p class="nav-group">You</p>
+        <a href="#/voice" data-route="voice">Your voice</a>
+        <a href="#/settings" data-route="settings">Settings</a>
+      </nav>
+      <p class="side-foot">Runs on this Mac. Speech stays local.</p>
+    </aside>
+    <main id="main" class="main" tabindex="-1"></main>
+  </div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <script src="/static/boot.js"></script>
+  <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

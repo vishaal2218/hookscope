@@ -1,0 +1,36 @@
+feature,area,priority,original,clone,notes
+Analyse a video from a pasted link,input,must,yes,yes,original: Reels and TikTok; clone: anything yt-dlp reads
+Analyse an uploaded video file,input,must,yes,yes,MP4 MOV and other ffmpeg formats
+Progress timeline with per-step timer that survives refresh,progress,must,yes,yes,
+Transcript layer with timestamps,analysis,must,yes,yes,local whisper
+Visual layer: key frames on-screen text framing pacing,analysis,must,yes,yes,scene cuts + hook frames
+Audio layer: delivery energy music silences,analysis,must,yes,yes,measured loudness and silence plus model judgement
+Performance layer: public views likes comments,analysis,must,yes,yes,private insights not available
+The Hook section: quote checked against transcript and how to reuse it,breakdown,must,yes,yes,
+What's working: structure pacing on-screen choices,breakdown,must,yes,yes,
+Where it could be better,breakdown,must,yes,yes,
+Content ideas tailored to my voice and pillars,breakdown,must,yes,yes,
+Draft review: hook check with stronger openers,draft,must,yes,yes,
+Draft review: where you might lose them with timestamps,draft,must,yes,yes,
+Draft review: ready or needs-work verdict and caption,draft,must,yes,yes,
+Optional note on what you are unsure about,input,should,yes,yes,
+Generate script from any idea (hooks beats shot list caption),scripts,should,yes,yes,
+Edit and save scripts,scripts,should,yes,yes,
+Creator profile: niche audience pillars tone,voice,should,yes,yes,
+Learn voice facts from my own videos and edit them,voice,should,yes,yes,
+Library of all analyses with search,library,should,yes,yes,
+Chat grounded in my library and voice,chat,should,yes,yes,
+Seven free text tools,tools,should,yes,yes,
+Key frames and transcript shown in the report,report,should,yes,yes,
+Timestamps seek the video player,report,should,no,yes,clone extra
+Weekly plan: findings do-next checklist 7-day calendar,plan,could,yes,yes,on demand from chosen breakdowns
+Health check page for tools and sign-in,settings,could,no,yes,clone extra for a local app
+Carousel and photo posts,input,could,yes,yes,gallery-dl for links; image uploads for drafts; carousel plans
+Export a report as Markdown,report,could,no,yes,clone extra
+Connect Instagram and TikTok accounts,onboarding,skip,yes,skip,needs platform app review
+Private insights (skip rate watch time reach),analysis,skip,yes,skip,needs connected accounts
+Cross-posting and scheduling,publishing,skip,yes,skip,needs publishing approval
+Billing trials plans,billing,skip,yes,skip,single-user local tool
+Weekly email,notifications,skip,yes,skip,no mail server
+Knowledge base document upload for chat,chat,skip,yes,skip,later if wanted
+Google sign-in,onboarding,skip,yes,skip,no accounts
